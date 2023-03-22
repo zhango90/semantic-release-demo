@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sem-rel": "semantic-release"
+    "sem-rel": "GITHUB_TOKEN=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 semantic-release"
   },
   "eslintConfig": {
     "extends": [
