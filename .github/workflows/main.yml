@@ -6,7 +6,7 @@ on:
       - next
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+  GH_TOKEN: ${{ secrets.GIT_TOKEN }}
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 jobs:
   release:
