@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacto in italiano!!!!!!!!!!!!
+          Learn Reacto in italiano e cinese!!!!!!!!!!!!
         </a>
       </header>
       hello!
