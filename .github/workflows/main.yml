@@ -1,6 +1,8 @@
 name: default
 
 on: push
+permissions:
+  contents: write
 
 jobs:
   build:
