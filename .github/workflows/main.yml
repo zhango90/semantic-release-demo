@@ -4,6 +4,10 @@ on:
     branches:
       - master
       - next
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 jobs:
   release:
     name: Release
@@ -20,7 +24,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run sem-rel
