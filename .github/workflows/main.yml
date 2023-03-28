@@ -24,4 +24,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Release
-        run: npm run sem-rel
+        run: npx semantic-release
