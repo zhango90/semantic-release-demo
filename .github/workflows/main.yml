@@ -5,9 +5,6 @@ on:
       - master
       - next
 
-env:
-  GH_TOKEN: ${{ secrets.GIT_TOKEN }}
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 jobs:
   release:
     name: Release
@@ -24,4 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GIT_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
