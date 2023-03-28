@@ -1,10 +1,7 @@
 {
-  "name": "semantic-release-demo",
+  "name": "zhang90-semantic-release-demo",
   "version": "1.1.0",
   "private": false,
-  "publishConfig": {
-    "@zhango90:registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
