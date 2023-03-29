@@ -15,7 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacto in italiano e cinese!!!!!!!!!!!! This is a beta
+          Learn Reacto in italiano e cinese!!!!!!!!!!!! This is a beta with pre
+          release tag
         </a>
       </header>
       hello!
