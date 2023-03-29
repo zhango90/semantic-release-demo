@@ -9,7 +9,7 @@
     },
     {
       "name": "feature/**",
-      "prerelease": "${name.replace(/^pre\\//g, "")}"
+      "prerelease": "${name.replace(/^pre\\//g, '')}"
     }
   ]
 }
