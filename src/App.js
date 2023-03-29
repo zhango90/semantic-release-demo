@@ -18,9 +18,9 @@ function App() {
           Learn Reacto in italiano e cinese!!!!!!!!!!!! This is a beta with pre
           release tag
         </a>
-        <div>Ciao Nuova feat!</div>
+        <div>Ciao Nuova feat in BETA!</div>
       </header>
-      hello!
+      hello!!!!
     </div>
   );
 }
