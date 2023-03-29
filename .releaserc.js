@@ -9,7 +9,7 @@ exports.default = {
     },
     {
       name: "feature/*",
-      prerelease: `${name.replace(/^feature\\/ / g, "")}`
+      prerelease: `${this.name.replace(/^feature\\/ / g, "")}`
     }
   ]
 };
