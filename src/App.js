@@ -15,12 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacto in italiano e cinese!!!!!!!!!!!! This is a beta with pre
-          release tag
+          Learn Reacto in italiano e cinese e spagnolo!!!!!!!!!!!! This is a
+          beta with pre release tag
         </a>
         <div>Ciao Nuova feat !!!in !!!BETA!</div>
       </header>
-      hello!!!!
+      hello!!!!!
     </div>
   );
 }
