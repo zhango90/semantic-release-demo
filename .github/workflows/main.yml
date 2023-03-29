@@ -5,7 +5,7 @@ on:
       - master
       - next
       - beta
-      - feature**
+      - feature/**
 
 permissions:
   contents: write
