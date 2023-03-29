@@ -7,9 +7,6 @@
       "name": "beta",
       "prerelease": true
     },
-    {
-      "name": "feature/**",
-      "prerelease": "${name.replace(/^pre\\//g, '')}"
-    }
+   { "name": "feature/*", "prerelease": "${name.replace(/\\//g, '-')}" }
   ]
 }
