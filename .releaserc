@@ -7,6 +7,6 @@
       "name": "beta",
       "prerelease": true
     },
-   { "name": "feature/*", "prerelease": "${name.replace(/\\//g, '-')}" }
+   { "name": "feature/*", "channel": "${name.replace(/\\//g, '-')}", "prerelease": "${name.replace(/\\//g, '-')}" }
   ]
 }
