@@ -7,6 +7,18 @@
       "name": "beta",
       "prerelease": true
     },
-   { "name": "feature/*", "channel": "${name.replace(/\\//g, '-')}", "prerelease": "${name.replace(/\\//g, '-')}" }
-  ]
+    {
+      "name": "feature/*",
+      "channel": "${name.replace(/\\//g, '-')}",
+      "prerelease": "${name.replace(/\\//g, '-')}"
+    }
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
+  "preset": "angular"
 }
