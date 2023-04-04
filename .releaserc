@@ -9,8 +9,8 @@
     },
     {
       "name": "feature/*",
-      "channel": "${name.replace(/\\//g, '-')}",
-      "prerelease": "${name.replace(/\\//g, '-')}"
+      "channel": "${name.replace(/feature\\//g, '')}",
+      "prerelease": "${name.replace(/feature\\//g, '-')}"
     }
   ],
   "plugins": [
